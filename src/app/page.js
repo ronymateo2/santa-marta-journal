@@ -6,7 +6,7 @@ const itinerary = [
   {
     day: "Día 1",
     title: "El Rodadero",
-    image: "/images/dia1-rodadero.png",
+    image: "/images/dia1-rodadero.webp",
     description:
       "Disfruta del atardecer en El Rodadero. Camina por el malecón, prueba mariscos frescos y contempla el sol escondiéndose tras el mar.",
     icons: ["☀️", "🩴", "🍤", "🌇"],
@@ -14,7 +14,7 @@ const itinerary = [
   {
     day: "Día 2",
     title: "Parque Tayrona – Cabo San Juan",
-    image: "/images/dia2-tayrona.png",
+    image: "/images/dia2-tayrona.webp",
     description:
       "Explora la selva y relájate en una de las playas más icónicas del país. Senderos, palmeras y mar cristalino.",
     icons: ["🌴", "🏞️", "🦜", "🩱"],
@@ -22,7 +22,7 @@ const itinerary = [
   {
     day: "Día 3",
     title: "Minca – Pozo Azul & Cascada Marinka",
-    image: "/images/dia3-minca.png",
+    image: "/images/dia3-minca.webp",
     description:
       "Aventura en la Sierra Nevada. Nada en pozos naturales, contempla cascadas y respira el aire fresco de la montaña.",
     icons: ["🌄", "💧", "🥾", "🦋"],
@@ -30,7 +30,7 @@ const itinerary = [
   {
     day: "Día 4",
     title: "Bahía Concha",
-    image: "/images/dia4-bahiaconcha.png",
+    image: "/images/dia4-bahiaconcha.webp",
     description:
       "Relájate en una bahía tranquila, perfecta para nadar, hacer snorkel o simplemente descansar bajo una palmera.",
     icons: ["🌊", "⛱️", "🐠", "📸"],
