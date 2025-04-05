@@ -1,6 +1,8 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import "@fontsource/poppins/400.css";
+import "@fontsource/poppins/600.css";
 
 const itinerary = [
   {
