@@ -5,7 +5,7 @@ export default function PaperCutScene() {
     <div className="relative w-full h-screen bg-[#fdf6e3] overflow-hidden">
       {/* Fondo sin sol ni nubes */}
       <img
-        src="/images/santa-marta-cover-2.png"
+        src="/images/santa-marta-cover-optimized.webp"
         alt="Fondo sin sol ni nubes"
         className="absolute inset-0 w-full h-full object-cover"
       />
