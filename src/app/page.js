@@ -108,7 +108,7 @@ function DespedidaSantaMarta({ onRestart }) {
   );
 }
 
-export default function TravelJournal() {
+export default function Home() {
   const [showIntro, setShowIntro] = useState(true);
   const [page, setPage] = useState(0);
   const [showFinal, setShowFinal] = useState(false);
