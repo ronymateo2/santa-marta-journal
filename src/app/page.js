@@ -188,7 +188,7 @@ export default function Home() {
             </div>
             <div className="text-center">
               <h2 className="text-xl font-bold text-gray-800">{current.day}</h2>
-              <h3 className="text-lg text-gray-600 italic">{current.title}</h3>
+              <h3 className="text-lg text-gray-600">{current.title}</h3>
               <p className="mt-2 text-sm text-gray-500">
                 {current.description}
               </p>
