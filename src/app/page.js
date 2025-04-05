@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/600.css";
+import PaperCutScene from "./components/PaperCutScene";
 
 const itinerary = [
   {
@@ -143,11 +144,7 @@ export default function Home() {
       <audio ref={audioRef} src="/audio/final.mp3" loop />
       {showIntro ? (
         <div className="relative bg-white shadow-xl rounded-2xl max-w-md w-full overflow-hidden">
-          <img
-            src="/images/santa-marta-cover.png"
-            alt="Portada Santa Marta"
-            className="w-full h-full object-cover"
-          />
+          <PaperCutScene />
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/20 text-white p-6 text-center">
             <h1 className="text-3xl font-bold drop-shadow-md">
               Santa Marta en Capas
