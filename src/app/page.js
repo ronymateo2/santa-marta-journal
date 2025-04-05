@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import "@fontsource/poppins/400.css";
 import "@fontsource/poppins/600.css";
 import PaperCutScene from "./components/PaperCutScene";
+import PalmTreeScene from "./components/PalmTreeScene";
 
 const itinerary = [
   {
@@ -18,6 +19,7 @@ const itinerary = [
     day: "Día 2",
     title: "Parque Tayrona – Cabo San Juan",
     image: "/images/dia2-tayrona.webp",
+    animation: <PalmTreeScene />,
     description:
       "Explora la selva y relájate en una de las playas más icónicas del país. Senderos, palmeras y mar cristalino.",
     icons: ["🌴", "🏞️", "🦜", "🩱"],
@@ -177,11 +179,15 @@ export default function Home() {
             className="bg-white shadow-xl rounded-2xl max-w-md w-full p-4 flex flex-col gap-4"
           >
             <div className="aspect-video w-full overflow-hidden rounded-xl">
-              <img
-                src={current.image}
-                alt={current.title}
-                className="object-cover w-full h-full"
-              />
+              {current.animation ? (
+                current.animation
+              ) : (
+                <img
+                  src={current.image}
+                  alt={current.title}
+                  className="object-cover w-full h-full"
+                />
+              )}
             </div>
             <div className="text-center">
               <h2 className="text-xl font-bold text-gray-800">{current.day}</h2>
